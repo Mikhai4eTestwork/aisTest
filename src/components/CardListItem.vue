@@ -10,7 +10,7 @@
                 <div class="app-dard-price text-danger flex-shrink-0">
                     {{ card.price }}
                 </div>
-                <div class="app-card-type d-flex align-items-center flex-shrink-0 py-1 px-2 rounded-pill border" :id="'tooltip-'+num">
+                <div class="app-card-type d-flex align-items-center flex-shrink-0 py-1 px-3 rounded-pill border" :id="'tooltip-'+num">
                     <div class="app-card-type__icon flex-shrink-0 d-flex justify-content-center align-items-center overflow-hidden mr-2">
                         <b-img-lazy :src="icon" class="flex-shrink-0"></b-img-lazy>
                     </div>
